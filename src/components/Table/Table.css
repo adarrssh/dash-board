@@ -1,0 +1,30 @@
+.user-table {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  width: 100%;
+  margin-top: 2rem;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+
+  margin-left: 2.5rem;
+}
+
+
+#navbarDropdown{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+#navbarSupportedContent{
+  display: flex;
+  justify-content: row;
+}
+
+.navbar-nav{
+  flex: 2;
+} 
+
+.d-flex{
+  flex: 2;
+}

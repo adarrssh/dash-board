@@ -1,0 +1,56 @@
+.main {
+  display: flex;
+  background-color: antiquewhite;
+  font-size: 1.1rem;
+  width: 100%;
+}
+
+.left {
+  flex: 1;
+}
+
+.left-nav-el {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.left-nav-el li {
+  margin: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+.left-nav-el li:hover {
+    color: aquamarine;
+}
+
+.right {
+  flex: 1;
+}
+
+.right-nav-el {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.right-nav-el li {
+  margin: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+
+.right-nav-el li:hover {
+    color: aquamarine;
+}
+
+img{
+ width: 6rem;  
+ border-radius: 0.5rem;
+}
+
+
+/* popup modal */
