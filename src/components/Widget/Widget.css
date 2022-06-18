@@ -34,3 +34,22 @@
 color: red;
 }
 
+@media only screen and (max-width:650px){
+   .featured{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   }
+
+   .featuredItem{
+    background-color: antiquewhite;
+    flex: 1;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+   }
+  }

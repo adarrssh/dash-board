@@ -29,3 +29,43 @@ body {
 .pie {
   width: 100%;
 }
+
+/* responsice css for app folder  */
+
+@media only screen and (max-width: 650px) {
+  .menu-item {
+    padding: 0;
+    width: 100%;
+    padding-top: 20px;
+  }
+}
+
+/* responsive css for table folder */
+
+@media only screen and (max-width: 650px) {
+  .featured {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .featuredItem {
+    background-color: antiquewhite;
+    flex: 1;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+
+  #navbarSupportedContent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+}

@@ -1,5 +1,4 @@
 import './App.css';
-import { useState } from 'react';
 import Navbar from './components/Navbar/Navbar';
 import Chart from './components/Charts/Charts'
 import Areachart from './components/Charts/Areachart';
@@ -23,8 +22,6 @@ function App() {
             <Table />
           </div>
         </div>
-
-
       </div>
 
     </>
